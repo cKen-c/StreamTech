@@ -1,16 +1,14 @@
-# React + Vite
+Objectif :
+Développer une interface interactive permettant de rechercher des films ou des séries en temps réel grâce à une API externe, avec des options de filtrage et la possibilité de constituer une liste de favoris.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Partie technique :
+Technologies utilisées : HTML, CSS et JavaScript.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+API externe : Intégration de l’API REST OMDb (Open Movie Database).
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Stockage des données : Pas de base de données ; utilisation du LocalStorage du navigateur pour simuler un stockage local.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Organisation du projet : Application de type Single Page Application (SPA), regroupée dans un seul dossier, avec une séparation nette entre la structure (HTML), le style (CSS) et la logique (JavaScript).
