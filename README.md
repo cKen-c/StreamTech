@@ -1,7 +1,13 @@
 Objectif :
+
+
 Développer une interface interactive permettant de rechercher des films ou des séries en temps réel grâce à une API externe, avec des options de filtrage et la possibilité de constituer une liste de favoris.
 
+
+
 Partie technique :
+
+
 Technologies utilisées : HTML, CSS et JavaScript.
 
 
